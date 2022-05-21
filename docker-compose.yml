@@ -1,0 +1,20 @@
+version: "3.2"
+
+services: 
+    arangodb:
+        image: arangodb
+        environment:
+            ARANGO_ROOT_PASSWORD: 1234
+        volumes: 
+            - ./dbackup:/var/lib/arangodb3
+        ports: 
+            - 8529:8529
+    freenow:
+        build: .
+        environment:
+            ARANGO_HOSTNAME: "http://arangodb"
+            ARANGO_PORT: "8529"
+        depends_on:
+            - "arangodb"
+        ports:
+            - 5001:5001
