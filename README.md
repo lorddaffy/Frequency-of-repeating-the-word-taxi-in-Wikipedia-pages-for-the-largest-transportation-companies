@@ -1,9 +1,10 @@
 # Frequency-of-repeating-the-word-taxi-in-Wikipedia-pages-for-the-largest-transportation-companies
-Extracting the word taxi from largest transportation companies pages from wekipedia, and store them in arangodb 
+- Extracting the word taxi from largest transportation companies pages from wekipedia, and store them in arangodb 
 
-# This project is a demo to showcase how we can use a simple python server that has 4 endpoints
 
-## I stored the ingested data in arangodb an open source MultiModel database (No SQL & Graph)
+### This project is a demo to showcase how we can use a simple python server that has 4 endpoints
+
+### I stored the ingested data in arangodb an open source MultiModel database (No SQL & Graph)
 
 ### Prerequisites
 - Docker
