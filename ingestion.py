@@ -7,7 +7,7 @@ import re
 def _insert_db(wiki_link, content):
     inserted = False
     try:
-        db = client.db("free-now", username="root", password="1234")
+        db = client.db("test-db", username="root", password="1234")
 
         if not db.has_collection("article"):
             db.create_collection("article")

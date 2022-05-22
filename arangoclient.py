@@ -9,6 +9,6 @@ client = ArangoClient(hosts=host)
 def setup_db():
     sys_db = client.db("_system", username="root", password="1234")
     try:
-        sys_db.create_database("free-now")
+        sys_db.create_database("test-db")
     except exceptions.DatabaseCreateError:
         pass 

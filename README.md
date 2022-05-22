@@ -10,10 +10,10 @@
 #### To build the project simple run <code> docker compose up -d </code>
 
 - After running project, Go to browser and type `localhost:8529`
-- You will open the *arangodb* server.
+- You will open the *arangodb* NoSQL DB.
 - Write username: root
 - Write password: 1234
-- Choose Database: free-now
+- Choose Database: test-db
 
 
 **The Endpoints:**

@@ -3,7 +3,7 @@ from arangoclient import client
 def get_taxi_analysis():
     
 
-    db = client.db("free-now", username="root", password="1234")
+    db = client.db("test-db", username="root", password="1234")
 
     if not db.has_collection("article"):
         return {}
