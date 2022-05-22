@@ -1,6 +1,4 @@
-# This project is a demo to showcase how we can use a simple python server that has 4 endpoints
-
-## I stored the ingested data in arangodb an open source MultiModel database (No SQL & Graph)
+## This project is a demo to showcase how we can use a simple python server that has 4 endpoints, I have extracted the html pages of the latgest transportation companies from wekipedia and stored the ingested data in arangodb an open source MultiModel database (No SQL & Graph), then count the repeating of the word taxi from the db 
 
 ### Prerequisites
 - Docker
